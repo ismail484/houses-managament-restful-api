@@ -45,3 +45,4 @@
    6. [ Base 64–encoded](https://en.wikipedia.org/wiki/Base64).
    7. [401 status code](https://developer.mozilla.org/de/docs/Web/HTTP/Status)
    8. [Spring Security](https://spring.io/projects/spring-security)
+   9. [Rest Template](https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/web/client/RestTemplate.html)
