@@ -43,5 +43,5 @@
    4. [Spring Boot ](https://spring.io/projects/spring-boot).
    5. [Swagger OpenAPI](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.0.0.md)
    6. [ Base 64–encoded](https://en.wikipedia.org/wiki/Base64).
-   7. [401 status code](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes)
+   7. [401 status code](https://developer.mozilla.org/de/docs/Web/HTTP/Status)
    8. [Spring Security](https://spring.io/projects/spring-security)
