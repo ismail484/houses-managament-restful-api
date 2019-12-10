@@ -1,0 +1,4 @@
+INSERT INTO House (id, type, new_house, price, area, construction_date, street, house_no, zip_code, city) VALUES (1, 'APARTMENT', false, '50000$', 100, To_DATE('01-01-2000', 'dd/mm/yyyy'), 'Fromund', 45, 81547, 'Munich');
+INSERT INTO House (id, type, new_house, price, area, construction_date, street, house_no, zip_code, city) VALUES (2, 'SINGLE_FAMILY_DETACHED', true, '150000$', 230, To_DATE('01-01-2019', 'dd/mm/yyyy'), 'st. quirin', 11, 80831, 'Munich');
+INSERT INTO House (id, type, new_house, price, area, construction_date, street, house_no, zip_code, city) VALUES (3, 'BUNGALOW', false, '40000$', 130, To_DATE('12-11-2015', 'dd/mm/yyyy'), 'Mine armod', 11, 23541, 'Berlin');
+INSERT INTO House (id, type, new_house, price, area, construction_date, street, house_no, zip_code, city) VALUES (4, 'CHALET', false, '650000$', 190, To_DATE('15-10-2013', 'dd/mm/yyyy'), 'Mine armod', 11, 76321, 'Hamburg');
