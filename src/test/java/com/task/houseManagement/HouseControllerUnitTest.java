@@ -52,7 +52,7 @@ public class HouseControllerUnitTest {
                 "Basic " + Base64Utils.encodeToString("mo:12345".getBytes())))
                 .andExpect(status().isOk())
                 .andExpect(content().json("[]"));
-       // verify(houseService, times(1)).retrieveAllHouses();
+        verify(houseService, times(1)).retrieveAllHouses();
     }
 
     /**
@@ -129,7 +129,7 @@ public class HouseControllerUnitTest {
     @Test
     public void addMyhouse() throws Exception {
         House house = getANewHouse();
-        mockMvc.perform(post("/addhouse").header(HttpHeaders.AUTHORIZATION,
+        mockMvc.perform(post("/houses").header(HttpHeaders.AUTHORIZATION,
                 "Basic " + Base64Utils.encodeToString("mo:12345".getBytes()))
                 .content(asJsonString(house))
                 .contentType(MediaType.APPLICATION_JSON)
@@ -140,7 +140,7 @@ public class HouseControllerUnitTest {
     @Test
     public void addMyhouseWithMissingStreet() throws Exception {
         House house = getANewHouseWithMissingStreet();
-        mockMvc.perform(post("/addhouse").header(HttpHeaders.AUTHORIZATION,
+        mockMvc.perform(post("/houses").header(HttpHeaders.AUTHORIZATION,
                 "Basic " + Base64Utils.encodeToString("mo:12345".getBytes()))
                 .content(asJsonString(house))
                 .contentType(MediaType.APPLICATION_JSON)

@@ -36,7 +36,7 @@ public class HouseManagementApplicationTests {
     private static final String GET_ALL_HOUSES_URL = "/houses";
     private static final String GET_ALL_SORTED_HOUSES_URL = "/sortedhouses/{sortedBy}";
     private static final String GET_HOUSE_ENDPOINT_URL = "/house/{id}";
-    private static final String Add_HOUSE_ENDPOINT_URL = "/addhouse";
+    private static final String Add_HOUSE_ENDPOINT_URL = "/houses";
     private static final String UPDATE_HOUSE_ENDPOINT_URL = "/house/{id}";
     private static final String DELETE_HOUSE_ENDPOINT_URL = "/house/{id}";
 

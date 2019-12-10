@@ -39,6 +39,15 @@ public class HouseController {
 
         return new ResponseEntity<>(house, HttpStatus.OK);
     }
+    @GetMapping("/house/{id1}/{id2}")
+    public ResponseEntity<Integer> compareHousesByID(@PathVariable Long id1, @PathVariable Long id2) {
+        House house1 = houseService.retrieveHouse(id1);
+        House house2 = houseService.retrieveHouse(id2);
+
+        int myResult = house1.compareTo(house2);
+
+        return new ResponseEntity<>(myResult, HttpStatus.OK);
+    }
 
     @GetMapping("/house/price/{price}")
     public ResponseEntity<House> getHouseByPrice(@PathVariable String price) {
@@ -56,7 +65,7 @@ public class HouseController {
         return new ResponseEntity<>(res, HttpStatus.OK);
     }
 
-    @PostMapping("/addhouse")
+    @PostMapping("/houses")
     public ResponseEntity<House> addHouse(@Valid @RequestBody House house) {
         House res = houseService.saveHouse(house);
 

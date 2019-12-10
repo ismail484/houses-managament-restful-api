@@ -15,10 +15,11 @@ import javax.persistence.Id;
 import javax.validation.Valid;
 import javax.validation.constraints.Digits;
 import javax.validation.constraints.NotBlank;
+import java.util.Comparator;
 import java.util.Date;
 
 @Entity
-public class House {
+public class House implements Comparable<House> {
 
     @Id
     @GeneratedValue(strategy= GenerationType.IDENTITY)
@@ -114,5 +115,10 @@ public class House {
                 ", area=" + area +
                 ", constructionDate=" + constructionDate +
                 '}';
+    }
+
+    @Override
+    public int compareTo(House o) {
+        return this.id.compareTo(o.id);
     }
 }
