@@ -17,11 +17,11 @@
 # List of secured APIs/Endpoints:
    - GET `/houses` : return list of all houses adverts
    - GET `/sortedhouses/{sortedBy}` : sorting by any field specified by query parameter ,default sorting - by **id**
-   - POST`/addhouse` :  add house advert;
-   - GET `/house/{id}`: return data for single house advert by id
-   - GET `/house/price/{price}`: return data for single house advert by price using spring data name convention 
-   - PUT `/house/{id}`: update data for single house advert by id
-   - Delete `/house/{id}`: delete data for single house advert by id
+   - POST`/addhouse` :  add house;
+   - GET `/house/{id}`: return data for single house by id
+   - GET `/house/price/{price}`: return data for single house by price using spring data name convention 
+   - PUT `/house/{id}`: update data for single house by id
+   - Delete `/house/{id}`: delete data for single house by id
 
 
 # Miscellaneous 
