@@ -27,7 +27,7 @@
 # Miscellaneous 
    1.  H2 database is used, because it's easily integrated with spring Boot (see pom.xml file) and configured in `application.properties` and I create simple query in `data.sql` to insert inital data into the DB.
    2.  I extends inteface of `JpaRepository`  which extends already interface of `CrudRepository` and `PagingAndSortingRepository` which allows me to have all Crud operations and Paging and sorting operations
-   3.  no need to make implementation for  `HouseRepository` interface, don't worry Spring Boot take care about it .
+   3.  no need to make implementation for  `HouseRepository` interface, don't worry Spring Boot take care about it in Runtime .
    4.  implement `BasicAuthentication` for all APIs.
    5.implement Basic Authentication(Baic Auth) is the simplest protocol available for performing web service authentication over HTTP protocol. Basic Auth requires a username and password. The client calling the web service takes these two credentials, converts them to a single Base 64–encoded value and passes it along in the Authentication HTTP header. The server compares the credentials passed to those stored. If it matches, the server fulfills the request and provides access to the data. If the Authentication HTTP header is missing or the password doesn’t match the user name, the server denies access and returns a 401 status code, which means the request is Unauthorized.
    5. Unit testing for service/controller layers and integration test are done and cover all test cases.
