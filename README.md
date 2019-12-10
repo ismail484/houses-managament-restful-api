@@ -41,7 +41,7 @@
    2. [Paging and sorting operations](https://docs.spring.io/spring-data/commons/docs/current/api/org/springframework/data/repository/PagingAndSortingRepository.html)
    3. [Crud Operations](https://docs.spring.io/spring-data/commons/docs/current/api/org/springframework/data/repository/CrudRepository.html)
    4. [Spring Boot ](https://spring.io/projects/spring-boot).
-   5. [Swagger OpenAPI] (https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.0.0.md)
+   5. [Swagger OpenAPI](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.0.0.md)
    6. [ Base 64–encoded](https://en.wikipedia.org/wiki/Base64).
    7. [401 status code](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes)
    8. [Spring Security](https://spring.io/projects/spring-security)
