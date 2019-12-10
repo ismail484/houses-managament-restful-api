@@ -33,6 +33,9 @@
    6. integration test cover all cases.
    7. implement Swagger ,which helps to  design, build, document and consume REST APIs. SpringFox is a Swagger integration for the Spring Framework
    
-      a. Swagger Editor – A browser-based editor where you can write OpenAPI specs.
-      b. Swagger UI – A web application that renders OpenAPI specs as interactive API documentation.
-      c. Swagger Codegen – A tool that generates server stubs and client libraries from an OpenAPI spec.
+
+# Resources
+ 
+   1. [Paging and sorting operations](https://docs.spring.io/spring-data/commons/docs/current/api/org/springframework/data/repository/PagingAndSortingRepository.html)
+   2. [Crud Operations](https://docs.spring.io/spring-data/commons/docs/current/api/org/springframework/data/repository/CrudRepository.html)
+   3. [Spring Boot ](https://spring.io/projects/spring-boot)
