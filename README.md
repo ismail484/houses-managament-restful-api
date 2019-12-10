@@ -3,14 +3,14 @@
 # Description
   
   ###  Secured RESTful web-service for HousesManagament written using Java Spring Boot provide the following functionalities:
-* have functionality to return list of all houses;
+* has functionality to return list of all houses;
 * support sorting by any field specified by query parameter, default sorting - by **id**;
-* have functionality to return data for single house by id;
-* have functionality to return data for single house by price;
-* have functionality to add house;
-* have functionality to modify house by id;
-* have functionality to delete house by id;
-* have validation for request parameters,
+* has functionality to return data for single house by id;
+* has functionality to return data for single house by price;
+* has functionality to add house;
+* has functionality to modify house by id;
+* has functionality to delete house by id;
+* has validation for request parameters,
 * accept and return data in JSON format, use standard JSON date format for the **constructionDate** field.
 
 
