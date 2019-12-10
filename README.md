@@ -31,7 +31,7 @@
    4.  implement `BasicAuthentication` for all APIs. by sending username and password in the header of the request.
    5. Unit testing for service/controller layers and integration test are done and cover all test cases.
    6. integration test cover all cases.
-   7. implement Swagger ,which helps to  design, build, document and consume REST APIs. SpringFox is a Swagger integration for the Spring Framework
+   7. implement Swagger ,which helps to  design, build, document and consume REST APIs. SpringFox is a Swagger integration for the Spring Framework( http://localhost:8080/swagger-ui.html)
    
 
 # Resources
