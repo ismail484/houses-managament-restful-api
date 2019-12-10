@@ -15,7 +15,7 @@
 
 
 # List of secured APIs/Endpoints:
-   - GET `/houses` : return list of all houses adverts
+   - GET `/houses` : return list of all houses.
    - GET `/sortedhouses/{sortedBy}` : sorting by any field specified by query parameter ,default sorting - by **id**
    - POST`/addhouse` :  add house;
    - GET `/house/{id}`: return data for single house by id
